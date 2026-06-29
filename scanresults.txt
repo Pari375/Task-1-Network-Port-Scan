@@ -1,0 +1,45 @@
+# Nmap 7.98 scan initiated Mon Jun 29 02:20:34 2026 as: /usr/lib/nmap/nmap -sS -oN scan_results.txt 192.168.0.0/24
+Nmap scan report for 192.168.x.x
+Host is up (0.024s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: xx:xx:xx:xx:xx:xx (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.021s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+8899/tcp open  ospf-lite
+MAC Address: xx:xx:xx:xx:xx:xx (Shanghai High-Flying Electronics  Technology)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.042s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: xx:xx:xx:xx:xx:xx (Earda Technologies)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.00074s latency).
+Not shown: 983 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+16992/tcp closed amt-soap-http
+49152/tcp closed unknown
+49153/tcp closed unknown
+49154/tcp closed unknown
+49160/tcp closed unknown
+49163/tcp closed unknown
+50500/tcp closed unknown
+52673/tcp closed unknown
+52848/tcp closed unknown
+52869/tcp closed unknown
+54328/tcp closed unknown
+55555/tcp closed unknown
+56738/tcp closed unknown
+58080/tcp closed unknown
+61900/tcp closed unknown
+64623/tcp closed unknown
+MAC Address: xx:xx:xx:xx:xx:xx (Intel Corporate)
